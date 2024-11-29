@@ -11,8 +11,8 @@ st.set_page_config(
 
 
 # Load model and preprocessed data
-pipe = pickle.load(open('data/model.pkl', 'rb'))
-df = pickle.load(open('data/data.pkl', 'rb'))
+pipe = pickle.load(open('Laptop/data/model.pkl', 'rb'))
+df = pickle.load(open('Laptop/data/data.pkl', 'rb'))
 
 st.title("Laptop Price Predictor")
 
